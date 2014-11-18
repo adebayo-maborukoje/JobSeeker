@@ -1,0 +1,305 @@
+/************************************
+GENERAL DESCRIPTION OF THE PAGE
+************************************/
+body{
+	font-family: 'Open sans', Arial, Sans-serif;
+}
+
+
+h1 {
+    font-family: Arial,'Open sans',sans-serif;
+    font-size: 1.7em;
+    background-image: none;
+    letter-spacing: normal;
+    margin-bottom: 6px;
+
+}
+
+.button{
+	font-family: 'Open sans', Kalinga, Sans-serif;
+	font-weight:normal;	
+	font-size:1.3em;
+	letter-spacing:2px;
+	color:white;
+	background-color:green;
+	outline:0;
+	border:0px solid green;
+	margin-top:1em;
+	padding:0.3em 2em;
+	opacity:0.9;
+}
+
+.button:hover{
+	opacity:1;
+}
+img{
+
+	max-width: 100%;
+}
+
+/************************************
+MAIN BODY OF THE PAGE 
+************************************/
+#container{
+	width:100%;
+	height:auto;
+	/*border:1px solid black;*/
+	margin:0 auto;
+}
+/************************************
+HEADER SECTION OF THE PAGE
+************************************/
+header{
+	
+	height:2em;
+	text-align:center ;
+	background-color:#e8ecf0;/* rgb(100,100,100)*/
+	max-width:99%;
+	width:99%;
+	padding:0 ;	
+	
+	
+}
+
+header a{
+	text-decoration:none;
+	font-weight:normal;	
+	color:black;
+	padding-right:0.3em;
+	line-height:2em;
+}
+
+header a:hover{
+	text-decoration:underline;
+}
+/*
+#header1 div ul li:first-child{
+	margin-left: 50%;
+}*/
+#header1 div ul li{
+display: block;
+
+}
+
+/************************************
+First Division
+************************************/
+#top_wrapper{
+	background: url('../images/bglogo.jpg') no-repeat center blue;
+	background-size:cover;	
+	max-width:87.125em;
+	margin:0 auto;
+	height:auto;
+	/*border:1px solid black;*/
+	padding:0.5em;
+}
+
+#logo{
+	z-index: 1000;
+	margin:0em 0 7% 1em;
+	width: 20%;
+	height: 20%;
+	background: url('images') no-repeat center;
+	background-size: cover;	
+}
+
+#post_a_job{
+	max-width: 100%;
+	height: auto;
+	margin:1em 0 1% 1%; /*the last guy has to change in the full screen to 5%*/
+	line-height:1.5em;
+	padding:0.5%;
+	font-family:Kalinga, Sans-serif;
+}
+
+#post_a_job p{
+	font-size:100%;
+
+}
+
+#top_wrapper #foot1{
+		/*opacity:0.8;
+	filter:alpha(opacity=60);	*/
+	height:auto;
+	width:inherit;
+	background-color: rgba(0, 0, 0, .6);
+	padding: 2em;
+	color: white;
+	font-size: 70%;
+}
+
+#top_wrapper #foot1 ul li{
+	display:inline-block;
+}
+
+#top_wrapper #foot1 h1{
+	padding-top: 0.5em;
+}
+
+#top_wrapper #foot1 ul li:first-child{
+	padding-top: 0.5em;
+}
+
+span{
+	font-size:3em;
+}
+
+/**********************************
+MIDDLE DIVS 
+**********************************/
+.mid{
+	margin:0em auto;	
+	width:99%;
+	height:auto;
+	min-height:100%;
+	/*border:1px solid black;	*/
+
+}
+/*****************************
+FIRST MID DIVISIONS
+*****************************/
+
+
+.first_mid{
+	display: block;
+	background:#f7f7f7;
+	color:#777;
+	padding-top:4em;
+}
+
+.first_mid > p{
+	margin: 0 auto;
+	width:auto;
+	line-height: 1em;
+	padding-bottom: 1em;
+	text-align:center;
+	font-size:2.1em;
+}
+
+.first_mid > div , .third_mid{
+	margin-top:2em auto;
+	text-align:center;
+}
+
+.info{
+	padding:1em;
+	max-width: 8em;
+	font-size:1.3em;
+	font-weight: bold;
+}
+
+.arrow{
+	display: none; /*this guy will be enabled in the wider screen*/
+}
+/*.arrow{
+	position:relative;
+	top:-3.2em;	
+
+}*/
+
+*******************************
+
+
+
+/***********************************
+SECOND DIVISION IN THE MIDDLE CLASS
+***********************************/
+
+.second_mid{
+background:url("../images/blurred_bg.jpg") no-repeat center grey;
+background-size: cover;
+}
+
+.second_mid{
+background:url("../images/blurred_bg.jpg") no-repeat center grey;
+background-size: cover;
+}
+
+.second_mid > div{
+	text-align:center;
+	line-height:3em;
+	padding-top:5em;
+		
+}
+.second_mid > div h1{
+	margin-bottom:0;
+	font-size:2em;	
+}
+.second_mid  div p{
+	line-height: 2em;
+	font-size:100%;
+	letter-spacing:1px;	
+}
+
+/***********************************
+THIRD DIVISION IN THE MIDDLE CLASS
+***********************************/
+.third_mid{
+	margin:0 auto;
+}
+
+.third_mid h1{
+	margin:0 auto;
+	padding:1em 0em;	
+}
+
+/*****************************
+IMAGES 
+*****************************/
+
+.work_step{
+	min-width: 23%;
+	min-height: 23%;
+
+}
+.partners_class{
+	width:100%;
+	height:70%;
+	min-width: 5%;
+	min-height: 4%;
+
+}
+ul li{
+	display: inline-block;
+	margin:0px auto;
+	opacity:1;
+}
+
+.arrow{
+	position:relative;
+	top:-70px;
+
+}
+/*.image_class li{
+
+	float:left;
+	width:45%;
+	margin:2.5%;
+	background-color: white;
+	color:#000;
+}*/
+
+/**********************************
+FOOTER SECTION OF THE PAGE
+**********************************/
+footer {
+	width:99.9%;
+	min-height: 6em;
+	height: auto;
+	border-top:5px solid green;
+	background-color: #333;
+	color: rgba(255, 255, 255, .5);
+}
+
+footer ul li {
+	font-size:0.75em;
+	margin:0em 1em  1em 0.2em;
+	display: inline-block;
+	padding-right: 1em;
+}
+footer ul li:first-child{
+margin:5.5em 1em  0 0.2em;
+}
+footer ul li:hover {
+	text-decoration: underline;
+}
