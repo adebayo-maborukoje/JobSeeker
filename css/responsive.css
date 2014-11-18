@@ -6,6 +6,10 @@
 	.arrow{
 		display:inline-block;
 	}
+	#top_wrapper #foot1 {
+		font-size: 150%;
+	}
+
 }
 
 /***************************************

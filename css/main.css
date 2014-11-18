@@ -76,7 +76,7 @@ header a:hover{
 First Division  
 *******************************/
 #top_wrapper{
-	background: url('../images/bglogo.jpg') no-repeat center blue;
+	background: url('../images/bglogo.jpg') no-repeat center white;
 	background-size:cover;	
 	max-width:87.125em;
 	margin:0 auto;
