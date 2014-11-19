@@ -76,7 +76,7 @@ header a:hover {
 First Division  
 *******************************/
 #top_wrapper {
-    background: url('../images/bglogo.jpg') no-repeat center white;
+    background: url('../images/bglogo1.jpg') no-repeat center rgba(202, 207, 214, 0.5);
     background-size:cover;  
     max-width:87.125em;
     margin:0 auto;
@@ -91,7 +91,7 @@ First Division
     width: 20%;
     height: 20%;
 }
-#post_a_job h1, p {
+#post_a_job /*h1, p*/ {
     font-weight: bold;  
     text-shadow:1px .02em 2px  #fff;
     -moz-text-shadow: 1px .02em 2px #fff;
@@ -106,8 +106,8 @@ First Division
     font-family: Kalinga, Sans-serif;
 }
 
-#post_a_job p {
-    font-size:100%;
+#post_a_job  {
+    font-size:80%;
 }
 
 #top_wrapper #foot1 {
