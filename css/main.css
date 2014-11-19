@@ -60,7 +60,7 @@ header a{
 	text-decoration:none;
 	font-weight:normal;	
 	color:black;
-	padding-right:0.3em;
+	padding-right:1vw;
 	line-height:2em;
 }
 
@@ -92,9 +92,9 @@ First Division
 	height: 20%;
 }
 #post_a_job h1, p{
-font-weight: bold;	
-text-shadow:1px .02em 2px  #fff;
--moz-text-shadow: 1px .02em 2px #fff;
+	font-weight: bold;	
+	text-shadow:1px .02em 2px  #fff;
+	-moz-text-shadow: 1px .02em 2px #fff;
 }
 
 #post_a_job{
@@ -104,9 +104,7 @@ text-shadow:1px .02em 2px  #fff;
 	line-height:1.5em;
 	padding:0.5%;
 	font-family: Kalinga, Sans-serif;
-	
 }
-
 
 #post_a_job p{
 	font-size:100%;
