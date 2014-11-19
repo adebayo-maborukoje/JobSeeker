@@ -49,8 +49,8 @@ HEADER SECTION OF THE PAGE
 ************************************/
 header {
     height:2em;
-    text-align:center ;
-    background-color:rgba(255,250,253,0.9);
+    text-align:center;
+    background-color:rgba(249,249,247,0.9);
     max-width:100%;
     width:100%;
     padding:0 ; 

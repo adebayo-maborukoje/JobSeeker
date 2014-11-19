@@ -1,69 +1,78 @@
 /***************************************
-	FOR BIG SCREENS
+    FOR BIG SCREENS
 ***************************************/
 
-@media screen and (min-width: 1000px){
-	.arrow{
-		display:inline-block;
-	}
-	#top_wrapper #foot1 {
-		font-size: 150%;
-	}
+@media screen and (min-width: 1000px) {
+    .arrow {
+        display:inline-block;
+    }
+    #top_wrapper #foot1 {
+        font-size: 150%;
+    }
 }
 
 /***************************************
-	FOR MEDIUM SCREENS
+    FOR MEDIUM SCREENS
 ***************************************/
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 700px) {
 
-	/***************************
-	HEADER SECTION OF THE PAGE
-	****************************/
-	header{
-		position: fixed;
-		height:2em;
-		text-align:right ;
-		background-color:rgba(255,255,255,0.4);
-		max-width:100%;
-		width:100%;
-		padding: 1em 0 1em 1%;	
-	}
+    /***************************
+    HEADER SECTION OF THE PAGE
+    ****************************/
+    header {
+        position: relative;
+        height:2em;
+        text-align:right ;
+        background-color:rgba(249,249,247,0.9);
+        max-width:100%;
+        width:100%;
+        padding: 1em 0 1em 1%;  
+    }
 
-	header a{
-		text-decoration:none;
-		font-weight:bold;	
-		color:black;
-		padding-right:0;
-		line-height:2em;
-	}
+    header a {
+        text-decoration:none;
+        font-weight:bold;   
+        color:black;
+        padding-right:0;
+        line-height:2em;
+    }
 
-	header a:hover{
-		text-decoration:underline;
-	}
+    header a:hover {
+        text-decoration:underline;
+    }
 
-	header a:last-child{
-		margin-right:5.5em;
-	}
+    header a:last-child {
+        margin-right:5.5em;
+    }
 
-	#header1{
-		width:100%;	
-		text-align:right;
-	}
+    #header1 {
+        width:100%; 
+        text-align:right;
+    }
+    #logo {
+    position: relative;
+    top:-9vh;    
+    z-index: 1000;
+    margin:0em 0 7% 1em;
+    width: 20%;
+    height: 20%;
+}
 
-	span{
-	font-size:2.5em;
-	}
-	/**************************
-	MAIN BODY
-	***************************/
-	#post_a_job{
-		max-width: 100%;
-		height: auto;
-		margin:1em 0 1% 6%; 
-		line-height:1.5em;
-		padding:0.5%;
-		font-family:Kalinga, Sans-serif;
-	}
+    span {
+    font-size:2.5em;
+    }
+
+    /**************************
+    MAIN BODY
+    ***************************/
+    #post_a_job {
+        max-width: 100%;
+        height: auto;
+        margin:1em 0 1% 6%; 
+        line-height:1.5em;
+        padding:0.5%;
+        font-family:Kalinga, Sans-serif;
+    }
 
 }
