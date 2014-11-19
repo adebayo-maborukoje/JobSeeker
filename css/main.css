@@ -117,10 +117,19 @@ First Division
     padding: 2em;
     color: white;
     font-size: 70%;
+
+}
+#top_wrapper #foot1 div, 
+#top_wrapper #foot1 h1 {
+ margin:0 auto;   
+border:1px solid black;
+text-align: center;
+
 }
 
-#top_wrapper #foot1 ul li {
+#top_wrapper #foot1  div ul li {
     display:inline-block;
+
 }
 
 #top_wrapper #foot1 h1 {

@@ -6,7 +6,10 @@
     .arrow {
         display:inline-block;
     }
-    #top_wrapper #foot1 {
+    #top_wrapper #foot1 h1 {
+        font-size: 300%;
+    }
+    #top_wrapper #foot1 div ul li {
         font-size: 150%;
     }
 
@@ -57,12 +60,12 @@
         text-align:right;
     }
     #logo {
-    position: relative;
-    top:1vh;    
-    z-index: 1000;
-    margin:0em 0 7% 1em;
-    width: 20%;
-    height: 20%;
+        position: relative;
+        top:1vh;    
+        z-index: 1000;
+        margin:0em 0 7% 1em;
+        width: 20%;
+        height: 20%;
 }
 
     span {
@@ -81,5 +84,11 @@
         font-family:Kalinga, Sans-serif;
     }
 
+    #top_wrapper #foot1 h1 {
+        font-size: 300%;
+    }
+    #top_wrapper #foot1 div ul li {
+        font-size: 150%;
+    }
 }
 
